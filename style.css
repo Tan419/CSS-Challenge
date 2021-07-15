@@ -1,0 +1,51 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    background-color: black;
+    height: 50px;
+    margin: 0px 50px;
+}
+
+body {
+    background-color: black;
+}
+
+#nology {
+    color: white;
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+}
+
+#links {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 600px;
+}
+
+.flex {
+    display: flex;
+    justify-content: flex-start;
+    background-color: white;
+    margin: 0px 50px;
+}
+
+#righthand {
+    border: 2px solid black;
+    width: 400px;
+    margin: 10px;
+    padding: 10px;
+}
+
+#panels div {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    width: 700px;
+    margin: 10px;
+    padding: 10px;
+}
